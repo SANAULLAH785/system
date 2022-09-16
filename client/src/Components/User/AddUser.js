@@ -22,7 +22,6 @@ const BajajAreaChartCard = () => {
     const orangeDark = theme.palette.secondary[800];
 
     useEffect(() => {
-        
         const newSupportChart = {
             ...chartData.options,
             colors: [orangeDark],
